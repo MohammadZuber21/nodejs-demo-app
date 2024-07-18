@@ -27,11 +27,4 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
-             npm instal 
-              npm install -g 
-              cd ~/nodejs-demo-app
-              
-              git pull origin main
-              npm install
-              npm run build 
-              pm2 restart api
+            
