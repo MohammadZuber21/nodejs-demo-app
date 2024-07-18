@@ -30,7 +30,7 @@ jobs:
              npm instal 
               npm install -g 
               cd ~/nodejs-demo-app
-              start npm --name "api" -- run start
+              
               git pull origin main
               npm install
               npm run build 
